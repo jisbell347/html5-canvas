@@ -8,3 +8,7 @@ canvas.height = window.innerHeight;
 ctx.strokeStyle = "#BADASS";
 ctx.lineJoin = "round";
 ctx.lineCap = "round";
+// Flag that is set to default false that tells the browser if we want to draw.
+let isDrawing = false;
+let lastX = 0;
+let lastY = 0;
